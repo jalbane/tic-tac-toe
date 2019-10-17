@@ -8,8 +8,7 @@ function Square(props)
 		<button className="square" onClick= {props.onClick}>
 			{props.value}
 		</button>
-	);
-	
+	);	
 }
 
 class Board extends React.Component{
